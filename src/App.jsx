@@ -1,9 +1,10 @@
+import Header from "./component/Header";
 
 function App() {
 
   return (
     <>
-      <h1>junayedHassan</h1>
+    <Header/>
     </>
   )
 }
