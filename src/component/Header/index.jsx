@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Search from "../Search";
 
 function Header() {
     return (
@@ -24,6 +25,19 @@ function Header() {
                     </div>
                 </div>
             </div>
+
+            <div className="header py-3">
+                <div className="container flex items-center justify-between">
+                    <div className="w-[25%]">
+                        <Link to={"/"}> <img src="/logo.jpg" alt="" /></Link>
+                    </div>
+                    <div className="w-[45%]">
+                        <Search/>
+                    </div>
+                    <div className="w-[30%]">ok</div>
+                </div>
+            </div>
+
         </header>
     )
 };
